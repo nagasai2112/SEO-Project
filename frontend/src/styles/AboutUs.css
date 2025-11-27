@@ -1,0 +1,77 @@
+.about-us {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #2d3436;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #6a0572;
+  font-weight: 700;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  color: #3c3c3c;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+/* Features Grid */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: linear-gradient(to bottom right, #ffffff, #fceff9);
+  color: #4b4b4b;
+  padding: 25px;
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  color: #c44569;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Call to Action */
+.cta {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4834d4;
+  margin-top: 30px;
+}

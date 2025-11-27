@@ -1,0 +1,76 @@
+/* Milestones Container */
+.milestones-container {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #2d3436;
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section Title */
+.milestones-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #6a0572;
+}
+
+/* Section Subtitle */
+.milestones-container p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #3c3c3c;
+  opacity: 0.9;
+}
+
+/* Milestone Cards Wrapper */
+.milestone-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Milestone Card */
+.milestone {
+  background: linear-gradient(to bottom right, #ffffff, #fceff9);
+  color: #4b4b4b;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.milestone:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Milestone Title */
+.milestone h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #c44569;
+}
+
+/* Milestone Description */
+.milestone p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .milestone-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .milestone {
+    width: 90%;
+  }
+}
